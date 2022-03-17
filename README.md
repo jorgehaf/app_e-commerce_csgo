@@ -28,7 +28,7 @@ $ expo start
 
 
 <h3>🛠 Tecnologias e bibliotecas</h3>
-As seguintes ferramentas foram usadas na construção do projeto:
+<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
 <br>
 
 - [Node](https://nodejs.org/en/)
