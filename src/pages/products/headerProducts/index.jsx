@@ -1,15 +1,18 @@
 import React from 'react';
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 
-import { Container, Title } from './styles';
+import { Container, Title, Cart } from './styles';
 
-export default function HeaderProducts({ navigation }) {
+export default function HeaderProducts({ navigation, totalItems }) {
     return (
-        
+
         <Container>
-            <Title>Products</Title>
-            <MaterialIcons name='shopping-cart' size={28} onPress={() => navigation.navigate('Cart')} />
+            <Title>Skins</Title>
+            <Cart>
+                <Text>{totalItems}</Text>
+                <MaterialIcons name='shopping-cart' size={28} onPress={() => navigation.navigate('Cart')} />
+            </Cart>
         </Container>
     )
 }

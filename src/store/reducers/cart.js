@@ -33,7 +33,7 @@ export default function cart(state = INITIAL_STATE, action) {
             }
 
 
-            localStorage.setItem('Cart', JSON.stringify(state))
+            // localStorage.setItem('Cart', JSON.stringify(state))
             return {
                 ...state
             };
@@ -51,7 +51,7 @@ export default function cart(state = INITIAL_STATE, action) {
             }
 
 
-            localStorage.setItem('Cart', JSON.stringify(state))
+            // localStorage.setItem('Cart', JSON.stringify(state))
             return {
                 ...state,
             };
@@ -73,7 +73,7 @@ export default function cart(state = INITIAL_STATE, action) {
             }
 
 
-            localStorage.setItem('Cart', JSON.stringify(state))
+            // localStorage.setItem('Cart', JSON.stringify(state))
             return {
                 ...state,
             };
@@ -88,7 +88,7 @@ export default function cart(state = INITIAL_STATE, action) {
             state.totalItems -= action.army.amount;
 
 
-            localStorage.setItem('Cart', JSON.stringify(state))
+            // localStorage.setItem('Cart', JSON.stringify(state))
             return {
                 ...state,
             };
