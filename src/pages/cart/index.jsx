@@ -14,7 +14,7 @@ export default function Cart() {
         <Container>
             <View>
                 {CartItems.cart.Cart.map((army) =>
-                    <Army>
+                    <Army key={army.id}>
                         <View>
                             <Text>Name: {army.name}</Text>
                             <Text>Amount: {army.amount}</Text>
