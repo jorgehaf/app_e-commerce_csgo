@@ -21,6 +21,9 @@ Além disto é bom ter um editor para trabalhar com o código como <a href="http
 <h3>Instale as dependências</h3>
 $ npm install
 
+<h3>Instale a cli do Expo</h3>
+$ npm install --global expo-cli
+
 <h3>Execute a aplicação no modo de desenvolvimento</h3>
 $ expo start
 

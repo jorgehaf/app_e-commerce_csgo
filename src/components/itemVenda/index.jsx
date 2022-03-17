@@ -14,13 +14,13 @@ export default function ItemVenda(props) {
                 <DetailsArmy>
                     <Image style={{ width: 80, height: 80 }} source={{ uri: props.army.image }} />
                     <InfosArmy>
-                        <Text>Price: {`$${props.army.price}`}</Text>
+                        <Text style={{fontSize: 20}}>Price: {`$${props.army.price}`}</Text>
                         <Text>Name: {props.army.name}</Text>
                         <Text>Stock: {props.army.stock}</Text>
                     </InfosArmy>
                 </DetailsArmy>
                 <View>
-                    <Button title='+' onPress={() => dispatch(cartActions.Add([], props.army))} />
+                    <Button title='Buy' onPress={() => dispatch(cartActions.Add([], props.army))} />
                 </View>
             </Army>
         </Container>

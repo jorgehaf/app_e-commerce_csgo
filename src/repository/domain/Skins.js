@@ -2,7 +2,7 @@ import client from "../config/client.js";
 
 let skins = {
     getSkins: () => {
-        // return client.get("apiFake.json");
+        // return client.get('../../../apiFake.json');
         return [{
                 "id": 1,
                 "name": "ak-47",

@@ -18,7 +18,7 @@ export default function Cart() {
                         <DetailsArmy>
                             <Image style={{ width: 50, height: 50 }} source={{ uri: army.image }} />
                             <InfosArmy>
-                                <Text>Price: {`$${army.totalGunPrice}`}</Text>
+                                <Text style={{ fontSize: 20 }}>Price: {`$${army.totalGunPrice}`}</Text>
                                 <Text>Name: {army.name}</Text>
                                 <Text>Amount: {army.amount}</Text>
                             </InfosArmy>
@@ -26,7 +26,7 @@ export default function Cart() {
                         <Buttons>
                             <Button title='+' onPress={() => dispatch(cartActions.AddItem([], army))} />
                             <Button title='-' onPress={() => dispatch(cartActions.RemoveItem([], army))} />
-                            <Button title='Delete' onPress={() => dispatch(cartActions.DeleteItem([], army))} />
+                            <Button color="#fc5758" title='Delete' onPress={() => dispatch(cartActions.DeleteItem([], army))} />
                         </Buttons>
                     </Army>
                 )}

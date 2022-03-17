@@ -7,7 +7,7 @@ import ItemVenda from '../../components/itemVenda';
 import services from "../../services/index"
 
 
-import { Container } from './styles';
+import { Container, Armys } from './styles';
 
 export default function Products() {
     const [skins, setSkins] = useState([]);
@@ -26,7 +26,7 @@ export default function Products() {
 
     return (
         <Container>
-            <View>{skins.map((army) => <ItemVenda key={army.id} army={army} />)}</View>
+            <Armys>{skins.map((army) => <ItemVenda key={army.id} army={army} />)}</Armys>
         </Container>
     )
 }

@@ -8,9 +8,10 @@ margin: 16px;
 export const Army = styled.View `
     margin: 16px 0;
     padding: 16px;
-    background-color: #666666;
+    background-color: #ffffff;
     flex-direction: row;
     justify-content: space-between
+    border-radius: 4px
 `;
 
 export const DetailsArmy = styled.View `

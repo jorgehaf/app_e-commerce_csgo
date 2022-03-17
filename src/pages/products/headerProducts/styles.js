@@ -5,8 +5,8 @@ export const Container = styled.View `
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 32px    
-    `;
+    margin-right: 32px
+`;
 
 export const Title = styled.Text `
     font-size: 20px
