@@ -9,9 +9,9 @@ export default function HeaderProducts({ navigation, totalItems }) {
 
         <Container>
             <Title>Skins</Title>
-            <Cart>
+            <Cart onPress={() => navigation.navigate('Cart')}>
                 <Text>{totalItems}</Text>
-                <MaterialIcons name='shopping-cart' size={28} onPress={() => navigation.navigate('Cart')} />
+                <MaterialIcons name='shopping-cart' size={28}/>
             </Cart>
         </Container>
     )
