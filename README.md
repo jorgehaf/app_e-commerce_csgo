@@ -1,5 +1,6 @@
 <h1>app_e-commerce_csgo</h1>
 <p>Esse é meu primeiro projeto criado em React Native.</p>
+<p>Os produtos vendidos no e-commerce são skins de armas de um jogo online, o CSGO, são meramente ilustrativas.</p>
 <p>A princípio serão criadas duas telas, Products e Cart, que serão respectivamente a página de compras e a parte do carrinho.</p>
 
 
